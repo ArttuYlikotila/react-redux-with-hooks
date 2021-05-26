@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useDispatch } from 'react-redux';
-import { addBird } from '../../../store/actions/birdActions';
+import { addBird } from '../../../store/birds/birdActions';
 
 // Component that renders the input form for adding a new bird to store
 export default function BirdForm() {

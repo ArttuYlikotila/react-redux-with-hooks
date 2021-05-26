@@ -1,5 +1,5 @@
 // Import action type constants -> this is one way of importing them, other files show another way
-import { GET_POSTS_STARTED, GET_POSTS_SUCCESS, GET_POSTS_FAILURE } from '../constants/postsConstants';
+import { GET_POSTS_STARTED, GET_POSTS_SUCCESS, GET_POSTS_FAILURE } from './postsConstants';
 
 // Redux action creators that return an action object
 // Action to start the fetching of data

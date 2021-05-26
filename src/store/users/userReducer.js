@@ -1,5 +1,5 @@
 // Import action type constants -> this is one way of importing them, other files show another way
-import { LOGIN, LOG_OUT } from './../constants/userConstants';
+import { LOGIN, LOG_OUT } from './userConstants';
 
 // The initial state object that is used for this reducer when the app is first loaded
 const initialState = {

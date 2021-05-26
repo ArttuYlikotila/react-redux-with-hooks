@@ -5,7 +5,7 @@ import { Provider } from 'react-redux';
 import thunk from 'redux-thunk';
 import { composeWithDevTools } from 'redux-devtools-extension';
 import App from './components/App';
-import rootReducer from './store/reducers/rootReducer';
+import rootReducer from './store/rootReducer';
 import './index.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 

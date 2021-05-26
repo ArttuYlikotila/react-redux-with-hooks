@@ -1,5 +1,5 @@
 // Import action type constants -> this is one way of importing them, other files show another way
-import * as constants from './../constants/postsConstants';
+import * as constants from './postsConstants';
 
 // The initial state object that is used for this reducer when the app is first loaded
 export const initialState = {

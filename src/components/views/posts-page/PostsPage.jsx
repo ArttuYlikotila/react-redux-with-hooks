@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { fetchPosts } from '../../../store/actions/postsActions';
+import { fetchPosts } from '../../../store/posts/postsActions';
 import Spinner from '../../Spinner';
 import Post from './Post';
 

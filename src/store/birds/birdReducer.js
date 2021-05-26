@@ -1,5 +1,5 @@
 // Import action type constants -> this is one way of importing them, other files show another way
-import * as constants from '../constants/birdConstants';
+import * as constants from './birdConstants';
 
 // The initial state array of objects that is used for this reducer when the app is first loaded
 const initialState = [

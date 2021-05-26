@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useDispatch } from 'react-redux';
 import { useHistory } from 'react-router';
-import { login } from '../../../store/actions/userActions';
+import { login } from '../../../store/users/userActions';
 
 // Component that renders the page "Login"
 export default function Login() {

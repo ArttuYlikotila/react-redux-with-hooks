@@ -1,5 +1,5 @@
 // Import action type constants -> this is one way of importing them, other files show another way
-import { LOGIN, LOG_OUT } from './../constants/userConstants';
+import { LOGIN, LOG_OUT } from './userConstants';
 
 // Redux action creators that return an action object
 // Action to log user in

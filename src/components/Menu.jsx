@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
-import { logout } from './../store/actions/userActions';
+import { logout } from '../store/users/userActions';
 
 // Navigation menu component for the application that renders links to other pages/components
 export default function Menu() {

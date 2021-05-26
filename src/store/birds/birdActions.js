@@ -1,5 +1,5 @@
 // Import action type constants -> this is one way of importing them, other files show another way
-import { ADD_BIRD, INCREMENT_BIRD, DECREMENT_BIRD, REMOVE_BIRD } from './../constants/birdConstants';
+import { ADD_BIRD, INCREMENT_BIRD, DECREMENT_BIRD, REMOVE_BIRD } from './birdConstants';
 
 // Redux action creators that return an action object
 // Action to add a bird

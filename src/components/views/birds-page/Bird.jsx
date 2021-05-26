@@ -1,5 +1,5 @@
 import { useDispatch } from 'react-redux';
-import { incrementBird, decrementBird, removeBird } from '../../../store/actions/birdActions';
+import { incrementBird, decrementBird, removeBird } from '../../../store/birds/birdActions';
 
 // Component that renders the data of a single bird passed in as a prop and enables user
 // to increment or decrement the value "views" of that bird object and remove a bird from store

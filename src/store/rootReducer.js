@@ -1,7 +1,7 @@
 import { combineReducers } from 'redux';
-import postsReducer from './postsReducer';
-import birdReducer from './birdReducer';
-import userReducer from './userReducer';
+import postsReducer from './posts/postsReducer';
+import birdReducer from './birds/birdReducer';
+import userReducer from './users/userReducer';
 
 const rootReducer = combineReducers({
   posts: postsReducer,
